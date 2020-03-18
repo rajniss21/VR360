@@ -1,0 +1,26 @@
+{
+  "name": "vr360",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.8.3",
+    "cypress-file-upload": "^3.5.0",
+    "gmail-tester": "^1.1.4"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajniss21/VR360.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rajniss21/VR360/issues"
+  },
+  "homepage": "https://github.com/rajniss21/VR360#readme",
+  "description": ""
+}
