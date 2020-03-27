@@ -1,5 +1,5 @@
 function getFrontendUrl(){
-    return Cypress.env(Cypress.env("currentFrontendEnv")).url;
+    return Cypress.env(Cypress.env("FrontendEnv")).url;
 }
 
 function getBackendUrl(){
@@ -35,7 +35,7 @@ export function backendUrl(){
     cy.visit(getbackendUrl());
 }
 
-export function frontLogin(){
+export function registetNewUser(){
     let userInfo = getUserDetials()
 
     cy.get('#first_name').type(userInfo.firstName)
