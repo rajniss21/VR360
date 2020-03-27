@@ -1,5 +1,5 @@
 function getFrontendUrl(){
-    return Cypress.env(Cypress.env("FrontendEnv")).url;
+    return Cypress.env(Cypress.env("frontendEnv")).url;
 }
 
 function getBackendUrl(){
